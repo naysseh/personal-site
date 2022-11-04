@@ -1,0 +1,329 @@
+body {
+  font-family: sans-serif;
+  background-color: #F6EFE7;
+}
+
+/* h1 formatting */
+h1 {
+  color: #4F000B;
+  margin-top: 30px;
+}
+
+.small-h1 {
+  margin-left: 60px;
+}
+/* h1 formatting */
+
+h2 {
+  color: #863228;
+}
+
+h3 {
+  color: #C87E5D;
+  margin: 2px;
+}
+
+h4 {
+  color: #0B4F6C;
+  font-size: 125%;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+p {
+  color: #506046;
+}
+
+/* Navigation Bar Formatting */
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: inline-block;
+  padding: 8px;
+  margin: 5px;
+  margin-top: 30px;
+  height: 50px;
+  text-align: right;
+}
+
+li a:hover {
+  color: #4F000B;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li {
+  display: inline;
+  padding: 5px;
+  font-size: 150%;
+}
+
+li a {
+  text-decoration: none;
+}
+/* End Navigation Bar Formatting */
+
+main {
+  display: flex;
+}
+
+.interests {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.photography {
+  margin-left: 25px;
+  margin-right: 24.5px;
+}
+
+img {
+  border-radius: 20px;
+  margin: 20px;
+  align-self: center;
+}
+
+strong {
+  color: #345350;
+}
+
+a {
+  color: #006466;
+}
+
+cite {
+  font-size: 80%;
+  color: #506046;
+}
+
+/* formatting for the footer */
+footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  font-size: .9em;
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin: 0 auto; */
+}
+
+.item {
+text-align: left;
+}
+
+p.bold {
+  font-weight: bold;
+}
+
+#headshot {
+  border-radius: 50%;
+  width: 382px;
+  height: 382px;
+}
+
+#jewelry-description {
+  margin-top: 0px;
+}
+
+/* Used to format larger descriptions - in index.html, shop.html, and photography.html */
+.description {
+  padding-left: 110px;
+  padding-top: 30px;
+  margin: auto;
+  width: auto;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+/* Used for smaller description - resume.html and contact.html */
+.small-description {
+  padding-left: 60px;
+}
+
+/* book section on about.html - contains the book images and titles  */
+section {
+  background-color: #EADBCD;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 100px;
+}
+
+/* Formats books + their descriptions in about.html - start */
+.books {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.book-single {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 250px;
+}
+
+.book-single img {
+  width: 150px;
+  border-radius: 0px;
+}
+
+/* Formats the book titles & source citations */
+.citation {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+/* Formats books in about.html - end */
+
+/* format contact section in about.html - start */
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.contact-box {
+  display: flex;
+  border: 2px white solid;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-box p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  border: 2px white solid;
+  width: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-box p {
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #345350;
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.descr {
+  font-weight: normal !important;
+  margin-bottom: 20px !important;
+}
+
+/* end */
+
+/* Formats the individual jewelry images with the title above it */
+.jewelry {
+  display: flex;
+  margin: 1px;
+  padding: 0px;
+  justify-content: left;
+  align-items: center;
+}
+
+.jewelry-stack {
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-content {
+  margin: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.image-buttons {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.carousel-stack {
+  display: flex;
+  flex-direction: column;
+  width: 341px;
+  height: 307px;
+}
+
+.arrow {
+  height: 30px;
+  width: 30px;
+  border: solid #4F000B;
+  border-width: 4px 4px 0px 0px;
+  background-color: inherit;
+}
+
+.arrow:hover {
+  border-color: #701a26;
+}
+
+.arrow.left {
+  transform: rotate(225deg);
+}
+
+.arrow.right {
+  transform: rotate(45deg);
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #4F000B;
+  border: solid #4F000B;
+}
+
+/* Change color of dots on hover */
+.circle:hover {
+  background-color: white;
+}
+
+/* Change the color of the dots when selected */
+.active {
+  background-color: white;
+}
+
+/* underline nav element */
+.active_page {
+  text-decoration: underline;
+}
