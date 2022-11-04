@@ -1,3 +1,1 @@
-# Project 1
-
-**Submission Instructions:** Stage, commit, and push your changed files. Then complete the submission form.
+*Personal Site, made using PHP, JS, HTML, CSS*
